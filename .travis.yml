@@ -1,4 +1,4 @@
-nguage: haskell
+language: haskell
 branches:
   only:
   - source
