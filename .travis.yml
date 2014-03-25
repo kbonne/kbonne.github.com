@@ -6,7 +6,7 @@ env:
   global:
   - secure: MJdCv6qdy0FB6x/LzuiUb6yYE2q4ZssPJDy622AX+E2U199z0r3CAWpucqctXq+DJJtHYiIx10Cn9Hhe5GTxI+dzTK5TbkMeMY9NiQFI9yl7SsXlHVsoWYdkqIV+YeZdFMaG26xtVM4RHR9tLCIad9AAJTUuTFvAqFVCddebTHw=
 install:
-- cabal install hakyll
+- cabal install -j hakyll
 - ghc --make site.hs
 before_script:
 - cd _site
